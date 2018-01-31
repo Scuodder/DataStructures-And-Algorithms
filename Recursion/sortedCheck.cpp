@@ -16,7 +16,7 @@ bool sortCheck (int* array, int size) {
     else{ 
     // a[0] < a[1]
     //  calling smaller array 
-     return sortCheck(array+1, size-1);
+     return sortCheck(array+1, size-1); // returns whatever sortCheck on smaller array returns
     
     }
     
