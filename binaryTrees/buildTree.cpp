@@ -1,19 +1,6 @@
+#include "./createNode.cpp"
 #include <iostream>
 using namespace std;
-
-// node structure
-class node {
-    public :
-        int data;
-        node* left;
-        node* right;
-
-    node(int d) {
-        data = d;
-        left = NULL;
-        right = NULL;
-    }    
-};
 
 // build function (recursion) 
 // return-type : root the tree passed in the function 
@@ -39,4 +26,3 @@ node* buildTree () {
     
     return root;
 }
-

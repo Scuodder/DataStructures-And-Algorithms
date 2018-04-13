@@ -1,4 +1,3 @@
-#include "./buildTree.cpp"
 #include <iostream>
 using namespace std;
 
@@ -16,6 +15,6 @@ void postOrder(node* root) {
     postOrder(root->left);
     postOrder(root->right);
     cout<< root->data<<" " ;
-    
+
     return;
 }
