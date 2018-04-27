@@ -12,3 +12,4 @@ void mirror (node* root) {
     mirror(root->right);
     swap(root->left, root->right);
 }
+
